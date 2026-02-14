@@ -1,14 +1,20 @@
+# Command to verify fork status via GitHub API
 curl https://api.github.com/repos/ruichintee/mcino-Introduction-to-Git-and-GitHub
 
+# Expected Terminal Output
 {
+  "id": 123456789,
   "name": "mcino-Introduction-to-Git-and-GitHub",
   "full_name": "ruichintee/mcino-Introduction-to-Git-and-GitHub",
+  "private": false,
+  "owner": {
+    "login": "ruichintee",
+    "type": "User"
+  },
+  "html_url": "https://github.com/[YOUR_GITHUB_USERNAME]/mcino-Introduction-to-Git-and-GitHub",
   "fork": true,
   "parent": {
     "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
     "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
-  },
-  "source": {
-    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
   }
 }
