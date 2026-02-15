@@ -1,11 +1,5 @@
-# Command to show all local and remote branches
-git branch -a
-
-# Expected Terminal Output
-  bug-fix-revert
-  bug-fix-typo
-* main
-  remotes/origin/HEAD -> origin/main
-  remotes/origin/bug-fix-revert
-  remotes/origin/bug-fix-typo
-  remotes/origin/main
+theia@theia-lemonteeman:/home/project/mcino-Introduction-to-G
+it-and-GitHub$ git branch -vv
+* bug-fix-revert 2fc8d98 Create forked-repo
+  bug-fix-typo   2fc8d98 Create forked-repo
+  main           2fc8d98 [origin/main] Create forked-repo
