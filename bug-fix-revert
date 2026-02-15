@@ -1,26 +1,3 @@
-# Command to verify Pull Request and Fork association
-curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/2fc8d98
-
-# Expected Terminal Output
-{
-  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/2fc8d98
-",
-  "id": 987654321,
-  "state": "open",
-  "title": "Fixing typo in README",
-  "user": {
-    "login": "ruichintee"
-  },
-  "head": {
-    "label": "ruichintee:bug-fix-typo",
-    "ref": "bug-fix-typo",
-    "repo": {
-      "full_name": "ruichintee/mcino-Introduction-to-Git-and-GitHub",
-      "fork": true
-    }
-  },
-  "base": {
-    "label": "ibm-developer-skills-network:main",
-    "ref": "main"
-  }
-}
+theia@theia-lemonteeman:/home/project/mcino-Introduction-to-G
+it-and-GitHub$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/5321 | jq -r '.head.repo.clone_url'
+https://github.com/ruichintee/mcino-Introduction-to-Git-and-GitHub.git
