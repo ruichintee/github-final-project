@@ -1,11 +1,7 @@
-# Commands executed
-git checkout main
-git merge bug-fix-typo
-
-# Expected Terminal Output
-Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-Updating a1b2c3d..e5f6g7h
+theia@theia-lemonteeman:/home/project/mcino-Introduction-to-G
+it-and-GitHub$ git checkout main git merge bug-fix-typo
+Updating ad95b0a..2fc8d98
 Fast-forward
- README.md | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ forked-repo | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 forked-repo
